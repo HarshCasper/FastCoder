@@ -1,0 +1,232 @@
+.tabs {
+  position: relative;
+  top: 10px;
+  right: 2px;
+  height:45px;
+  overflow:visible;
+  z-index: 1;
+}
+.tab {
+  width:200px;
+  height:45px;
+  overflow:hidden;
+  float:left;
+  margin: 0 -15px 0 0;
+}
+.hide{
+  display: none;
+}
+.btn-lg {
+  font-size: 1rem;
+}
+.btn-danger {
+  background-color: #292929;
+}
+.row {
+  margin:0;
+}
+.tab-box {
+  height:36px;
+  background: #292929;
+  border-radius: 1px;
+  border:1px solid #484848;
+  margin:0 10px 0;
+  color: white;
+  -webkit-transform: perspective(100px) rotateX(30deg);
+  -moz-transform: perspective(100px) rotateX(30deg);
+}
+pre {
+  color: #ffffff;
+  background-color: #000000;
+  border: 5px solid #021244;
+  margin-bottom: 0;
+  height: 400px;
+}
+body {
+  background-color: gray;
+}
+h1{
+  font-family: 'Roboto', Arial;
+  font-size: 50px;
+  color: white;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.title{
+  margin-bottom: 60px;
+}
+.navbar {
+  margin-bottom: 80px;
+}
+.navbar-light .navbar-brand {
+  color: #ee1010;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: -.7px;
+  word-spacing: -2px;
+}
+.tab .activetab {
+  border-bottom: 1px solid #292929;
+}
+.tabindex {
+  position: relative;
+  top: 40px;
+  left: 1px;
+  z-index: 2;
+}
+.tabjs, .tabindex, .tabcss {
+  position: relative;
+  top: 41px;
+  left: 18px;
+  z-index: 2;
+}
+.index{
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+}
+.tabindex .html {
+  width: 23px;
+}
+.tabjs .html {
+  width: 14px;
+  margin-right: 3px;
+}
+.tabcss .html {
+  width: 20px;
+}
+.closeicon {
+  margin-left: 47px;
+}
+.closeiconjs {
+  margin-left: 55px;
+}
+.closeiconcss {
+  margin-left: 55px;
+}
+.col-sm-1 {
+  background-color: #0e2a33;
+  padding: 0;
+  margin: 0;
+}
+.col-sm-11 {
+  margin: 0;
+  padding:0;
+}
+.col-sm-1 p {
+  color: #93a1a1;
+  font-size: .95rem;
+  margin: 2px;
+  padding-left: 13px;
+}
+#first {
+  margin-top: 5px;
+}
+.navbar-brand div {
+  color: rgb(27, 230, 27);
+  display: inline;
+}
+.navbar .row {
+  width: 100%;
+}
+.language {
+  margin: 0 auto;
+  width: 330px;
+}
+.language p {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  margin-right: 10px;
+}
+.language > div{
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.disappear {
+  visibility: hidden;
+}
+.start {
+  position: relative;
+  left: 110px;
+  bottom: 70px;
+  color: #e2e60b;
+}
+.blinker {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1,0,0,1);
+  animation-duration: 1s;
+  display: inline-block;
+  width: 3px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(white,.3);
+  background: #b58900;
+}
+@keyframes blinker {
+  from {
+      opacity: 1.0;
+ }
+  to {
+      opacity: 0.0;
+ }
+}
+.correct {
+  color: #37e913;
+}
+.return:before {
+  content: '\23CE';
+  color: #fdf6e3;
+  padding: .1em .4em;
+  font-weight: bold;
+}
+.active{
+  color: white;
+  background-color: #b58900;
+}
+pre span {
+  padding: .1em 0;
+  font-size: 16px;
+}
+.incorrect{
+  background-color: #eb3414;
+}
+.statistics{
+  background-color: #292929;
+}
+.accuracy,.clock, .speed, .errors{
+  color: white;
+  font-size: 18px;
+}
+.rankgif {
+  width:100%;
+}
+.rank {
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+.results {
+  background: #292929;
+  color: white;
+}
+.restart {
+  background: green;
+}
+#statsbutton {
+  background: green;
+  margin: 30px 0 0 60px;
+}
+#stats {
+}
+.commonerror {
+  position: relative;
+  left: 50px;
+}
+.csscontainer{
+  margin: 30px 0;
+}
